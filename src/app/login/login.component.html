@@ -1,0 +1,57 @@
+<div class="container-fluid ">
+  <div class="col-xs-3 login">
+      <div class="card">
+              <h4 class="title-text">RAW MATERIAL SUPPLIER</h4>
+              <img class="login-image" src="../assets/images/rawmaterial-login.jpeg" alt="raw-material-logo">
+              <div class="card-body">
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <p align="center" >
+                      <button type="button" class="btn btn-info" (click)="openModal(template)">Login</button>
+                  </p>
+              </div>
+      </div>
+     
+  </div>
+  <div class="col-xs-1"></div>
+  <div class="col-xs-3 login">
+      <div class="card">
+              <h4 class="title-text" >COMPONENT SUPPLIER</h4>
+              <img class="login-image" src="../assets/images/component-login.jpeg" alt="raw-material-logo">
+              <div class="card-body">
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <p align="center" style="">
+                      <button type="button" class="btn btn-info" (click)="openModal(template)">Login</button>
+                  </p>
+                  
+              </div>
+      </div>
+          
+  </div>
+  <div class="col-xs-1"></div>
+  <div class="col-xs-3 login">
+      <div class="card">
+              <h4 class="title-text">SKF LMT</h4>
+              <img class="login-image" src="../assets/images/skf-login.jpeg" alt="raw-material-logo">
+              <div class="card-body">
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  <p align="center">
+                      <button type="button" class="btn btn-info" (click)="openModal(template)">Login</button>
+                  </p>
+              </div>
+      </div>
+
+  </div>
+  
+
+    <ng-template #template>
+        <div class="modal-header">
+            <h4 class="modal-title pull-left">Modal</h4>
+            <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+         <span aria-hidden="true">&times;</span>
+       </button>
+        </div>
+        <div class="modal-body">
+            This is a modal.
+        </div>
+    </ng-template>
+
